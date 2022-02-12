@@ -8,12 +8,12 @@ const MyCarousel = () => {
       <Carousel>
         {MyCarouselData.map((elements) => {
           return (
-            <Carousel.Item interval={100} key={elements.id}>
+            <Carousel.Item interval={1000} key={elements.id}>
               <img
                 className="d-block w-100"
                 src={elements.carouselImg}
                 alt="First slide"
-                style={{ height: "200px" }}
+                style={{ height: "400px" }}
               />
               <Carousel.Caption>
                 <h3>{elements.carouselTitle}</h3>
