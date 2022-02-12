@@ -1,0 +1,17 @@
+.Btn{color: cornsilk;
+  background-color: rgb(56, 99, 46);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+ }
+ .Btn:active{
+   color: cornsilk;
+ }
+ .Btn:hover{
+   color: rgb(176, 199, 178);
+ }
+ .NavBtn{
+   background-color: rgb(44, 78, 10);
+ }
